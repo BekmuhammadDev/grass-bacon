@@ -1,0 +1,792 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ----------- header start-------------- */
+header {
+  background-color: #FFFFFF;
+  position: fixed;
+  width: 100%;
+  position: sticky;
+  left: 3px;
+  right: 3px;
+  top: 10px;
+}
+
+.container {
+  max-width: 1440px;
+  width: 100%;
+  height: 100%;
+  margin: 20px 200px;
+
+}
+
+nav {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav .list {
+  width: 414px;
+  height: 27px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  display: flex;
+  text-align: center;
+  margin-right: 100px;
+}
+
+nav.list.h1 {
+  width: 94px;
+  height: 39px;
+  top: 48px;
+  left: 70px;
+  padding-left: 40px;
+}
+
+nav .list .list-item a {
+  color: #2C3847;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 400;
+  transition: all 0.2s ease-out;
+
+
+}
+
+nav .list .list-item a:hover {
+  color: #5FB848;
+}
+
+.active-link {
+  color: #fff !important;
+}
+
+button {
+  padding: 14px 30px;
+  border-radius: 55px;
+  gap: 10px;
+  background-color: #64BB47;
+  color: #fff;
+
+}
+
+button:hover {
+  background-color:#494949 ;
+  color: #fff;
+}
+
+/* ----------- header end -------------- */
+
+/* ----------- intro start -------------- */
+
+main {
+  max-width: 1440px;
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.eat {
+  width: 596px;
+  height: 285px;
+  top: 260px;
+  left: 135px;
+  font-size: 76px;
+  font-weight: 770;
+  line-height: 95px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.cl-green {
+  color: #64BB47;
+}
+
+.enjoy {
+  width: 504px;
+  height: 102px;
+  top: 575px;
+  left: 135px;
+  font-size: 24px;
+  font-weight: 750;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.btn{
+  padding: 16px 40px;
+  background-color: #5FB848;
+}
+.btn:hover{
+  color: #FCFCFC;
+  background-color: #494949;
+}
+
+
+/* ------------------------------------------------ */
+
+/* ----------------- intro-1 start ---------------*/
+.wrapper-1 {
+  width: 100%;
+  height: 100%;
+}
+
+.Choose {
+  width: 428px;
+  height: 68px;
+  top: 1010px;
+  left: 506px;
+  font-size: 54px;
+  margin-top: 50px;
+  font-weight: 770;
+  line-height: 68px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin: 0px 506px;
+}
+
+.Organic {
+  width: 696px;
+  height: 30px;
+  top: 1093px;
+  left: 372px;
+  font-size: 24px;
+  font-weight: 750;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin: 10px 372px;
+  color: #3B433E;
+
+}
+
+.big-card {
+  width: Hug (1, 010px);
+  height: Hug (245px);
+  top: 1185px;
+  left: 215px;
+  display: flex;
+  margin: 63px 255px;
+}
+
+.card {
+  margin: 20px 30px;
+  width: 270px;
+  height: 245px;
+  padding: 0px 45px;
+
+}
+
+.order {
+  width: 172px;
+  height: 35px;
+  top: 136px;
+  left: 49px;
+  font-size: 28px;
+  font-weight: 770;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.text-box {
+  width: Hug (701px);
+  height: Hug (100px);
+  top: 1490px;
+  left: 379px;
+  gap: 150px;
+  display: flex;
+  margin: 60px 459px;
+}
+
+.number {
+  width: 72px;
+  height: 55px;
+  left: 31px;
+  font-size: 44px;
+  font-weight: 780;
+  line-height: 55px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #000000;
+}
+
+.plus {
+  width: 142px;
+  height: 25px;
+  top: 75px;
+  left: 285px;
+  font-size: 20px;
+  font-weight: 760;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #545454;
+  margin-top: 30px;
+}
+
+/* -----------------intro-1 end----------- */
+
+/* ------------------intro-2 start----------*/
+.wrapper-2 {
+  width: 1235px;
+  height: 722px;
+  top: 1710px;
+  left: 135px;
+  margin: 290px 80px;
+  display: flex;
+}
+
+.wrap_right {
+  margin-right: 200px;
+  margin-top: 50px;
+}
+
+.about {
+  width: 231px;
+  height: 68px;
+  top: 1837px;
+  left: 135px;
+  font-size: 54px;
+  font-weight: 770;
+  line-height: 68px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 20px;
+  margin-top: 90px;
+}
+
+.grown {
+  width: 500px;
+  height: 238px;
+  top: 1935px;
+  left: 135px;
+  font-size: 22px;
+  font-weight: 750;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #181d19a8;
+  margin-bottom: 20px;
+
+}
+
+.wrap_left {
+  display: flex;
+  margin-top: 30px;
+}
+
+.food_1 {
+  width: 310px;
+  height: 323px;
+  top: 1710px;
+  left: 730px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  transition: 1s;
+}
+
+.food_1:hover {
+  transform:scale(1.3);
+  z-index: 5px;
+}
+
+
+.food-2 {
+  margin-top: 10px;
+  margin-right: 20px;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  transition: 1s;
+}
+.food-2:hover{
+  transform: scale(1.3);
+  z-index: 5px;
+}
+
+.food-3 {
+  margin-top: 40px;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  transition: 1s;
+}
+.food-3:hover{
+  transform:scale(1.3);
+  z-index: 3px;
+}
+/* ----------------------------------------------------------------------- */
+
+/* -------------------------- intro-3 start---------------------------------- */
+.wrapper-3{
+  width: 1170px;
+  height: 480px;
+  top: 2552px;
+  left: 135px;
+  display: flex;
+  margin-bottom: 90px;
+}
+.wrapper-right{
+  width: 585px;
+  height: 480px;
+  top: 2552px;
+  left: 135px;
+  box-shadow: #000000;
+  transition: 1s;
+}
+.wrapper-right:hover{
+  transform: scale(1.3);
+  z-index: 5px;
+}
+.wrapper-left{
+  margin-left: 300px;
+}
+.fresh{
+  width: 428px;
+  height: 136px;
+  top: 2572px;
+  left: 791px;
+  font-family: Sharp Sans No1;
+  font-size: 54px;
+  font-weight: 770;
+  line-height: 68px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.informed{
+  width: 514px;
+  height: 170px;
+  top: 2738px;
+  left: 791px;
+  font-family: Sharp Sans No1;
+  font-size: 22px;
+  font-weight: 750;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+/* -------------------------------------------------------------- */
+
+/* ----------------------------intro-4 start--------------------- */
+.warpper-3{
+  width: 1248.87px;
+  height: 622.72px;
+  top: 3112px;
+  left: 135px;
+  margin: 150px 130px;
+  display: flex;
+}
+.wrap-right{
+  width: 500px;
+  height: 484px;
+  top: 3187px;
+  left: 135px;
+}
+.clok{
+  width: 366px;
+  height: 136px;
+  top: 3187px;
+  left: 135px;
+   font-size: 54px;
+   font-weight: 770;
+   line-height: 68px;
+   letter-spacing: 0em;
+   text-align: left;
+}
+.existence{
+  width: 500px;
+  height: 170px;
+  top: 3353px;
+  left: 135px;
+  font-size: 22px;
+  font-weight: 750;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 30px;
+}
+.caloca{
+  margin-top: 30px;
+}
+.wrap-left{
+  width: 727.37px;
+  height: 622.72px;
+  top: 3112px;
+  left: 656.5px;
+  margin-left: 20px;
+}
+.sheef{
+  width: 649.5px;
+  height: 584px;
+  top: 3112px;
+  left: 656.5px;
+  transition: 1s;
+}
+.sheef:hover{
+  transform: scale(1.3);
+  z-index: 5px;
+}
+
+/* --------------------------------------------------- */
+
+/* -----------------intro-5 start-------------------- */
+.wrapper-4{
+  width: 1170px;
+  height: 817px;
+  top: 3875px;
+  left: 135px;
+  border: 1px;
+  margin: 140px 135px;
+}
+.wrap-3{
+  text-align: center;
+  margin: 15px 250px;
+}
+
+
+.special{
+  width: 543px;
+  height: 68px;
+  top: 3875px;
+  left: 452px;
+  font-size: 54px;
+  font-weight: 770;
+  line-height: 68px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #151414;
+}
+.premium{
+  width: 556px;
+  height: 30px;
+  top: 3958px;
+  left: 442px;
+  font-size: 24px;
+  font-weight: 750;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #3B433E;
+}
+.wrap-4{
+  width: 1170px;
+  height: 520px;
+  top: 4048px;
+  left: 135px;
+  border-radius: 20px;
+  border: 1px;
+  display: flex;
+  margin: 60px 0px;
+}
+.green{
+  width: 356px;
+  height: 520px;
+  top: 4048px;
+  left: 135px;
+  border-radius: 20px;
+  border: 1px;
+  transition: 1s;
+}
+.green:hover{
+  transform: scale(1.2);
+  z-index: 5px;
+}
+.beef{
+  width: 356px;
+  height: 520px;
+  top: 4048px;
+  left: 542px;
+  border-radius: 20px;
+  font-size: 70px;
+  transition: 1s;
+}
+.beef:hover{
+  transform: scale(1.5);
+  z-index: 5px;
+}
+
+.nut{
+  width: 356px;
+  height: 520px;
+  top: 4048px;
+  left: 949px;
+  border-radius: 20px;
+  border: 1px;
+  transition: 1s;
+}
+.nut:hover{
+transform: scale(1.2);
+z-index: 5px;
+}
+.viev{
+  padding: 20px 60px;
+  margin: 60px 415px;
+}
+
+/* ---------------------------------------------------------- */
+
+/* ------------------ intro-6 start------------------------ */
+
+.wrapper-5{
+  width: 1440px;
+  height: 677px;
+  top: 4812px;
+  margin: 190px 0px;
+  background-color: #FCFCFC;
+}
+.clients{
+  width: 479px;
+  height: 68px;
+  top: 4882px;
+  left: 480px;
+  font-size: 54px;
+  font-weight: 770;
+  line-height: 68px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin: 20px 460px;
+}
+.big-card-1{
+  display: flex;
+  margin: 0px 193px;
+  justify-content: space-between;
+}
+
+.card-2{
+  width: 514px;
+  height: 347px;
+  top: 4997px;
+  left: 193px;
+  border: 2px solid #FFFFFF;
+  border-radius: 8px;
+  margin-top: 47px;
+  box-shadow: #000000;
+  transition: 1s;
+}
+.card-2:hover{
+  transform: scale(1.2);
+  z-index: 5px;
+}
+.uidesk{
+  margin: 40px 25px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.khalil{
+  width: 126px;
+  height: 25px;
+  top: 5060px;
+  left: 346px;
+  font-size: 20px;
+  font-weight: 770;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 10px;
+}
+.ceodesk{
+  width: 100px;
+  height: 17px;
+  top: 5088px;
+  left: 346px;
+  font-size: 14px;
+  font-weight: 760;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 30px;
+}
+.below{
+  width: 86.97px;
+  height: 70.5px;
+  top: 5034px;
+  left: 684.97px;
+  padding: 0px, 0px, 0px, 0px;
+  color: #8b8585;
+}
+.regard{
+  margin: 32px 37px;
+  width: 456px;
+  height: 120px;
+  top: 5160px;
+  left: 220px;
+  font-size: 18px;
+  font-weight: 750;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #151414;
+}
+.vector{
+  width: 110px;
+  height: 24.5px;
+  top: 5394px;
+  left: 665px;
+  margin: 50px 665px;
+}
+/* ----------------------------------------------------------- */
+
+/* ---------------------- INTRO-7  START ------------------------------------- */
+.wrapper-6{
+  width: 629px;
+  height: 210px;
+  top: 5609px;
+  left: 405px;
+}
+.Subscribe{
+  width: 463px;
+  height: 45px;
+  top: 5609px;
+  left: 488px;
+  font-size: 36px;
+  font-weight: 770;
+  line-height: 45px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin: 20px 488px;
+}
+
+  
+
+.Enter{
+  width: 629px;
+  height: 30px;
+  top: 5669px;
+  left: 405px;
+  font-size: 24px;
+  font-weight: 750;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin: 15px 405px;
+  margin-bottom: 20px;
+}
+.input{
+  width: 515px;
+  height: 60px;
+  top: 5759px;
+  left: 462px;
+display: flex;
+text-align: center;
+}
+.email{
+  width: 330px;
+  height: 60px;
+  top: 5759px;
+  left: 462px;
+  border-radius: 165px;
+ margin-left: 10px;
+ font-family: Sharp Sans No1;
+ font-size: 18px;
+ font-weight: 750;
+ line-height: 23px;
+ letter-spacing: 0em;
+ text-align: left;
+ margin: 60px 482px;
+}
+.get{
+  width: 170px;
+  height: 60px;
+  top: 5759px;
+  left: 807px;
+  border-radius: 50px;
+ margin-left: 707px;
+}
+/* ----------------------------------------------------------- */
+
+/* ------------------- FOOTER START--------------------------- */
+footer{
+  width: 1440px;
+  height: 120px;
+  top: 5969px;
+  margin: 264px 0px;
+}
+.wrapper-7{
+margin: 264px;
+display: flex;
+justify-content: space-between;
+}
+
+
+
+
+.desk{
+  width: 85px;
+  height: 33px;
+  top: 6091px;
+  left: 176px;
+  color: #2C3847;
+  margin-bottom: 30px;
+}
+.fomed{
+  width: 262px;
+  height: 40px;
+  top: 6158px;
+  left: 176px;
+  font-size: 16px;
+  font-weight: 760;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #657582;
+}
+.cards-1{
+  width: 77px;
+  height: 132px;
+  top: 6083px;
+  left: 589px;
+  margin-top: 10px;
+}
+.link{
+  width: 60px;
+  height: 28px;
+  top: 6083px;
+  left: 589px;
+  font-size: 22px;
+  font-weight: 770;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #2C3847;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+.link:hover{
+  color: #64BB47;
+}
+.greenline{
+  width: 1440px;
+  height: 60px;
+  top: 6329px;
+  background-color: #64BB47;
+}
+.greenlin{
+  width: 353px;
+  height: 20px;
+  top: 6349px;
+  left: 543px;
+  font-size: 16px;
+  font-weight: 760;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #FCFCFC;
+  margin: 50px 534px;
+}
+/* -----------------------------  THE END   -------------------------------- */
